@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário02</title>
+
+<body background="barra.jpg">
+    <form onreset="debug">
+        <input type="text">
+        <button type="reset">Enviar</button>
+        <H1>
+            <div style="color: rgb(255, 0, 0);">
+                Formulário de uso para teste.
+        </H1>
+        </div>
+        <label for="nome">Insira seu nome</label>
+        <input type="nome" placeholder="Coloque seu nome aqui">
+        <div><br>
+
+            <label for="data"><em>Data de Nascimento</em></label>
+            <input type="date" name="" id="data">
+        </div>
+        <br>
+        <div>
+            <I>Seu gênero é?</I> <input type="radio" name="opção" value=op1>Masculino
+            <input type="radio" name="opção" value=op2>Feminino
+        </div>
+        <div><br>
+            <input type="e-mail" name="e-mail" placeholder="Digite seu e-mail">
+            <input type="password" name="senha" placeholder="Digite sua senha">
+        </div>
+        <div><br>
+            <input type="submit" name="Enviar" value="Enviar">
+        </div>
+        <br>
+        <div>
+            Qual a sua nota para esse Formulário?<input type="range" id="vol" name="vol" value="0" min="0" max="10"
+                oninput="display" .value="value" onchange="display.value=value">
+            <input type="text" id="display" value="0" oninput="vol.value=value" onchange="vol.value=value">
+            <div>
+                Gostou?
+                <input type="checkbox">
+            </div>
+            <div>
+                <fieldset>Este formulario foi feito por:Vitória Ferreira de Alencar Ribeiro </fieldset>
+            </div>
+            <fieldset>
+                <legend>Este é o fim deste formulario</legend>
+            </fieldset>
+
+    </form>
+</body>
+</head>
+
+</html>
